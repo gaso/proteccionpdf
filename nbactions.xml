@@ -43,4 +43,11 @@
                 <exec.executable>java</exec.executable>
             </properties>
         </action>
+        <action>
+            <actionName>CUSTOM-compilar_unicoarchivo</actionName>
+            <displayName>compilar_unicoarchivo</displayName>
+            <goals>
+                <goal>assembly:single</goal>
+            </goals>
+        </action>
     </actions>
